@@ -7,7 +7,7 @@ function CategoryFilter({ categories, selectedCategory, setSelectedCategory }) {
         <CategoryItem key={category} active={category === selectedCategory}>
           <CategoryLink
             onClick={() => setSelectedCategory(category)}
-            role="menuitem"
+            role="menuitem"  
           >
             {category}
           </CategoryLink>

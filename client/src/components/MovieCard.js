@@ -7,7 +7,7 @@ function MovieCard({ movie }) {
         <img src={movie.poster_url} alt={movie.title + " Poster"} />
       </Poster>
       {movie.discount && <Discount>Discount!</Discount>}
-      <Detail>
+      <Detail> 
         <h2>{movie.title}</h2>
         <p>
           {movie.category} | {movie.year} | {movie.length} min.

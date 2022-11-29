@@ -5,7 +5,7 @@ function MovieForm() {
   const [formData, setFormData] = useState({
     title: "",
     year: new Date().getFullYear(),
-    length: "0",
+    length: "0", 
     director: "",
     description: "",
     poster_url: "",

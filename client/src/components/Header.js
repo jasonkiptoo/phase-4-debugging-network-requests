@@ -7,7 +7,7 @@ function Header() {
       <Logo>FlockBuster</Logo>
       <nav>
         <StyledLink exact to="/">
-          Home
+          Home 
         </StyledLink>
         <StyledLink exact to="/new">
           Add Movie
